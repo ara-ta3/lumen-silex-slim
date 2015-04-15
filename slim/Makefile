@@ -4,4 +4,4 @@ install:
 	${PHP} ../composer.phar install
 
 server:
-	${PHP} -S localhost:8002 -t public
+	${PHP} -S slim.local.com:8000 -t public

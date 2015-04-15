@@ -4,4 +4,4 @@ install:
 	${PHP} ../composer.phar install
 
 server:
-	${PHP} -S localhost:8001 -t public
+	${PHP} -S silex.local.com:8000 -t public

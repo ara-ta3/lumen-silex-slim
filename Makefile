@@ -11,11 +11,11 @@ install:
 	make install -C slim
 
 bench-lumen:
-	siege -c ${conc} -r ${req} 'http://localhost:8000/'
+	siege -c ${conc} -r ${req} 'http://lumen.local.com:8000/'
 
 bench-silex:
-	siege -c ${conc} -r ${req} 'http://localhost:8001/'
+	siege -c ${conc} -r ${req} 'http://silex.local.com:8000/'
 
 bench-slim:
-	siege -c ${conc} -r ${req} 'http://localhost:8002/'
+	siege -c ${conc} -r ${req} 'http://slim.local.com:8000/'
 
